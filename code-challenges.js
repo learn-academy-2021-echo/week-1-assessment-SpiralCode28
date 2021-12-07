@@ -14,11 +14,11 @@
       // console.log(bowl);
       // bowl = "Bunny"
       // console.log(bowl);
-    bowl = []
+    // bowl = []
     // console.log(bowl);
-    bowl.push("Light Blue Dinosaur")
+    // bowl.push("Light Blue Dinosaur")
     // console.log(bowl);
-    bowl.push("Purple Dinosaur", "Yellow Dinosaur")
+    // bowl.push("Purple Dinosaur", "Yellow Dinosaur")
     // console.log(bowl);
 
   // console.log("Kirk, here is your purple dinosaur.");
@@ -29,9 +29,9 @@
   // This is donamic coding:
   // Loop
 
-    for (var i = 1; i < bowl.length; i++) {
-      console.log(`Kirk, here is your ${bowl[i]}`);
-    }
+    // for (var i = 1; i < bowl.length; i++) {
+    //   console.log(`Kirk, here is your ${bowl[i]}`);
+    // }
 
 // ****
 
@@ -117,24 +117,39 @@ reverseString("Echo 2021");
 // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
 
 var myArray = [13, 34, 5, 10, 27, 42]
-for (let i = 0; i < myArray.length; i++)
+// Set up an array
+
+for (let i = 0; i < myArray.length; i++) //for loop
 
 if (myArray[i] % 2 ===0 ) {
   console.log("odd");
+  // ^^^ will log if odd
+
 } else {
   console.log("even");
+  // ^^^ will log if even
 }
 
 
 // --------------------5) Create a statement that evaluates two numbers and subtracts the smaller number from the larger number using the two sets of test variables provided below. Expected output: 42, 3
 
 var number1 = 58
+// ^^^ variable one
 var number2 = 100
+// ^^^ variable two
 
-if (number1 < number2){
+if (number1 < number2){ // condition 1
+  // ^^^ Use if statement
+
   console.log(number2 - number1);
-} else {
+  //  ^^^ log equation if if statement is true
+
+} else { // condition 2
+  // ^^^ else runs only if the condition above was not met
+
   console.log(number1 - number2);
+  //  ^^^ log equation if else statement is true
+
 }
 // var number1 = 27
 // var number2 = 24

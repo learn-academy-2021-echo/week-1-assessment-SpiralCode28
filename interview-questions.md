@@ -12,6 +12,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
   - GitHub is an online platform which allows many people to work off of it and collaborate on a project. Git is local software that is on your computer.
 
   Researched answer:
+
   - GitHub is an online platform and graphical user interface that works for the local, git software. Git is software that is local and not online.
 
 
@@ -19,7 +20,11 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
+  - True or false questions
+
   Researched answer:
+
+  - Anything that evaluates an expression.
 
 
 
@@ -43,7 +48,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Researched answer:
 
-  -
+  - An iteration is an object that defines a sequence.  With it you can execute a function over and over until you have the outcome you want.
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
@@ -54,14 +59,16 @@ Then, research the question to expand on your answer. Even if you feel you have 
   Researched answer:
 
   - Proper pair programming techniques are as followed:
-    -
 
-  - Pair programming has two roles. They are the "driver" and the "navigator." The navigator will
+
+  - Pair programming has two roles. They are the "driver" and the "navigator." The navigator will be going over the task and steps for that text, but not necessarily being specific on what keys to enter.
 
   - Proper pair programming techniques are as followed:
     - Constant communication with the partner
-    - Switching roles every 10 - 20 minutes
-    -
+    - Switching roles often every 10 - 20 minutes
+    - keep distractions at a minimum
+    - both have eyes on the code
+
 
 
 6. What is something we did in class this week you found helpful?  
@@ -77,12 +84,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. GitHub pull request:
+1. GitHub pull request: Telling another that they can review a branch that was submitted to the repository.
 
-2. Higher Order Functions:
+2. Higher Order Functions: Functions that operate on or change other functions.
 
-3. Jest:
+3. Jest: A way to test code without making changes to a system.
 
-4. Objects:
+4. Objects: Data types that contain collections of Keys and Values. They may contain properties and meethods.
 
-5. Classes:
+5. Classes: A blueprint for Objects. Encapsulates data with the code to work on data.

@@ -11,8 +11,7 @@ var cohort = "Echo 2021"
   console.log(cohort.length)
 
 // a) Your answer: 8
-// b) Verify and explain: After verifying, it was
-
+// b) Verify and explain: After verifying, it was not accurate because I was thinking about it being zero - indexed. 
 
 // --------------------2) What will this log?
 
