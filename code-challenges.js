@@ -40,50 +40,67 @@
 
 // Create the code and test each of the variables provided. Expected output: "42 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-// var temp = 350
-// var temp = 212
+var temp = 350;
+// ^^^ variable 1
 
+// var temp = 42;
+// ^^^ variable 2
 
-// var temp = 42
-// var boilingPoint = 212;;
-//
-// let num = 42;
-// if(num <= 212 {
-//   console.log("Your number is a perfect square!");
-// }
-// console.log();
-  // && num => 211)
+// var temp = 212;
+// ^^^ variable 3
+
+  // if statment will cover all three guidelines and the output options
+  if (temp < 212) {
+      console.log("42 is below boiling point"); // logged if statment is true
+
+  // else if runs if above statement is false
+  } else if (temp === 212) {
+      console.log("212 is at boiling point"); // logged if else if statment is true
+
+  // else runs if the previous statements are both false
+  } else (temp > 212)
+      console.log("350 is above boiling point"); // logged if else statment is true
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
 
-// var myNumbers1 = [3, 7, 0, 36, -9]
-// var myNumbers2 = [ 8, -7, 42, 9, 13]
-//
-// console.log(myNumbers1 + myNumbers2);
+var myNumbers1 = [3, 7, 0, 36, -9]
+// ^^^ variable one
+
+var myNumbers2 = [8, -7, 42, 9, 13]
+// ^^^ variable two
+
+var allMyNumbers = myNumbers1.concat(myNumbers2);
+// ^^^ variable 3 - using concat() to combine two arrays
+
+ console.log(allMyNumbers.length);
+ // .length to log the length of the array
+
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below. Expected output: "1202 ohcE"
 
 
-// After spending over an hour on this one problem and logging each step, I didn't realize that my variable I had defined didn't matter (commented out below). The solution was not dynamic and I was frustrated that I spent a lot of time reading the Syllabus and searching for ways to rearrange the string.
+// After today's talk on functions, the problem became much easier. I was frustrated that I spent a lot of time reading the Syllabus and searching for ways to rearrange the string, but today I am much happier with the outcome!
 
-  // var currentCohort = "Echo 2021" (commented out original variable)
+  // var currentCohort = "Echo 2021"
+
+  // (commented out original variable)
 
   // I found that using these three methods I can get the "Expected output."
  function reverseString(str) {
 
     // split() to return a new array
-    var splitString = str.split(""); // var splitString = "hello".split("");
+    var spltString = str.split(""); // var splitString = "hello".split("");
     // Check logged output
     // console.log(currentCohort.split(""));
 
     // reverse() to reverse the characters in the array
-    var reverseArray = splitString.reverse("");
+    var rvrsArray = spltString.reverse("");
 
     // Check logged output
-      // console.log(reverseArray);
+      // console.log(rvrsArray);
 
     // Use the join() to combine letters of an array into a string
-    var joinArray = reverseArray.join("");
+    var joinArray = rvrsArray.join("");
 
     // log the joined array that became a string
     console.log(joinArray);
@@ -94,15 +111,19 @@
 }
 
 // Call on function above
-reverseString("I am Hannah");
-
-
+reverseString("Echo 2021");
 
 
 // --------------------4) Create a statement that will evaluate whether each number in an array is even or odd. Use the test variable provided below. Expected output: "odd" "even" "odd" "even" "odd" "even"
 
 var myArray = [13, 34, 5, 10, 27, 42]
+for (let i = 0; i < myArray.length; i++)
 
+if (myArray[i] % 2 ===0 ) {
+  console.log("odd");
+} else {
+  console.log("even");
+}
 
 
 // --------------------5) Create a statement that evaluates two numbers and subtracts the smaller number from the larger number using the two sets of test variables provided below. Expected output: 42, 3
@@ -110,5 +131,10 @@ var myArray = [13, 34, 5, 10, 27, 42]
 var number1 = 58
 var number2 = 100
 
+if (number1 < number2){
+  console.log(number2 - number1);
+} else {
+  console.log(number1 - number2);
+}
 // var number1 = 27
 // var number2 = 24
